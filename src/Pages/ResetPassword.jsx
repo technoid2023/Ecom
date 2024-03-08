@@ -13,7 +13,7 @@ from 'mdb-react-ui-kit';
 import toast ,{Toaster} from "react-hot-toast";
 import axios from "axios";
 import {useNavigate} from "react-router-dom";
-import Header from '../Components/Layout/Header';
+
 function Reset() {
     const[femail,setFemail]=useState(false)
     const[fotp,setFotp]=useState(true)

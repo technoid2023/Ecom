@@ -14,7 +14,7 @@ import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import Layout from "../Components/Layout/Layout";
 import Cookies from "js-cookie";
-import { encrypt, extractSubstrings } from "../Auth/PrivateRoute";
+import { encrypt } from "../Auth/PrivateRoute";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash, faRotate } from "@fortawesome/free-solid-svg-icons";
 
@@ -56,9 +56,11 @@ function UserLogin() {
       [name]: value,
     });
   };
+  // checkFormValidity();
   useEffect(() => {
     checkFormValidity();
-  }, [formData]);
+}, [formData]);
+
   // Toggle password visibility
   const togglePasswordVisibility = () => {
     setFormData({
@@ -89,7 +91,7 @@ function UserLogin() {
     e.preventDefault();
 
     if (isCorrect === true) {
-      let mainModules = [];
+     
       if (formData.userId !== "" && formData.password !== "") {
         axios.post('https://edu-tech-bwe5.onrender.com/v1/login', {"email": formData.userId, "password": formData.password,})
           // .get("./user1.json")
