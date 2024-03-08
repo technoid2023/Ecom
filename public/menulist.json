@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+          "Module": "Revenue(Sr)",
+          "menus": [
+            { "sl": 1, "name": "Credit Invoice", "path": "/dashboard/credit-invoice","address":"/credit-invoice" },
+            { "sl": 2, "name": "Debit Invoice", "path": "/dashboard/debit-invoice","address":"#" }
+          ]
+        },
+        {
+            "Module": "Revenue(Bil Master)",
+            "menus": [
+              { "sl": 1, "name": "Assesment of Marine Charges", "path": "/dashboard/marine-bill-assesment","address":"#"}
+            ]
+          },
+          {
+            "Module": "Cargo_Export_Writer",
+            "menus": [
+              { "sl": 1, "name": "Export Application Entry(Cargo)", "path": "/dashboard/export-application-entry-cargo","address":"#"}
+            ]
+          },
+          {
+            "Module": "Container_Export_Writer",
+            "menus": [
+              { "sl": 1, "name": "Cintainer Box Declaration", "path": "/dashboard/container-box-declaration","address":"#"}
+            ]
+          },
+        {
+          "Module": "Vessel Oprn.(Sr)",
+          "menus": [
+            { "sl": 1, "name": "Vessel at Sandheads", "path": "/dashboard/vessel-at-sandheads","address":"/vessel-at-sandheads"}
+          ]
+        },
+        {
+            "Module": "Railway Bill",
+            "menus": [
+              { "sl": 1, "name": "Checking for Bill Status", "path": "/dashboard/checking-bill-status","address":"#"}
+            ]
+          },
+          {
+            "Module": "Test Module",
+            "menus": [
+              { "sl": 1, "name": "Test Form", "path": "/dashboard/test","address":"#"}
+            ]
+          }
+
+      ]
+}
+

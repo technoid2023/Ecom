@@ -1,0 +1,77 @@
+{
+    "arrModule": {
+        "arrADM": [1],
+        "arrFIN": [1],
+        "arrHRM": [1],
+        "arrMKT": null,
+        "arrMMS": [
+            {
+                "strRoleCd": "MMSPUR1",
+                "strRoleName": "Purchase",
+                "arrMenuItemType": [
+                    {
+                        "strAppType": "MMSPUR1A",
+                        "strAppName": "Application",
+                        "arrMenuItemDetail": [
+                            {
+                                "numSlNo": 1,
+                                "strAppCd": "MMS.PUR.A.01.1",
+                                "strAppTitle": "Indent(L-1)",
+                                "strAppUrl": "/cciIfhmsMmsPurWeb/#/indent"
+                            },
+                            {
+                                "numSlNo": 2,
+                                "strAppCd": "MMS.PUR.A.02.1",
+                                "strAppTitle": "Purchase Requisition(L-1)",
+                                "strAppUrl": "/cciIfhmsMmsPurWeb/#/purchase-requisition"
+                            },
+                            {
+                                "numSlNo": 3,
+                                "strAppCd": "MMS.PUR.A.03.1",
+                                "strAppTitle": "Tender",
+                                "strAppUrl": "/cciIfhmsMmsPurWeb/#/tender"
+                            },
+                            {
+                                "numSlNo": 4,
+                                "strAppCd": "MMS.PUR.A.04.1",
+                                "strAppTitle": "Purchase Order(L-1)",
+                                "strAppUrl": "/cciIfhmsMmsPurWeb/#/purchase-order"
+                            }
+                        ]
+                    },
+                    {
+                        "strAppType": "MMSPUR1R",
+                        "strAppName": "Report",
+                        "arrMenuItemDetail": [
+                            {
+                                "numSlNo": 1,
+                                "strAppCd": "MMS.PUR.R.01.1",
+                                "strAppTitle": "Indent Report",
+                                "strAppUrl": "/cciIfhmsMmsPurReportWeb/#/indentEntryReport"
+                            },
+                            {
+                                "numSlNo": 6,
+                                "strAppCd": "MMS.PUR.R.02.1",
+                                "strAppTitle": "Purchase Requisition",
+                                "strAppUrl": "/cciIfhmsMmsPurReportWeb/#/purchaseRequisitionEntryReport"
+                            },
+                            {
+                                "numSlNo": 7,
+                                "strAppCd": "MMS.PUR.R.03.1",
+                                "strAppTitle": "Tender",
+                                "strAppUrl": "/cciIfhmsMmsPurReportWeb/#/tenderEntryReport"
+                            },
+                            {
+                                "numSlNo": 8,
+                                "strAppCd": "MMS.PUR.R.04.1",
+                                "strAppTitle": "Purchase Order",
+                                "strAppUrl": "/cciIfhmsMmsPurReportWeb/#/purchaseOrderEntryReport"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "arrPOD": null
+    }
+}
