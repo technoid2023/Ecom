@@ -27,8 +27,8 @@ function Register() {
         name:"",
         email:"",
         mobile:null,
-        college:"",
-        course:"",
+        company:"",
+        designation:"",
         city:"",
         pin_code:null,
         password:""
@@ -48,8 +48,8 @@ function Register() {
             name:user.name,
             email:user.email,
             mobile:user.mobile,
-            college:user.college,
-            course:user.course,
+            company:user.company,
+            designation:user.designation,
             city:user.city,
             pin_code:user.pin_code,
             password:user.password,
@@ -149,11 +149,11 @@ toast.error("Enter Your Mail")
               </div>
               <div className="d-flex flex-row align-items-center mb-4 ">
                 <MDBIcon fas icon="university me-3" size='lg'/>
-                <MDBInput label='Your College' name='college' type='text' onChange={handleInput} className='w-100'/>
+                <MDBInput label='Your company' name='company' type='text' onChange={handleInput} className='w-100'/>
               </div>
               <div className="d-flex flex-row align-items-center mb-4 ">
                 <MDBIcon fas icon="laptop me-3" size='lg'/>
-                <MDBInput label='Your Course' name='course' type='text' onChange={handleInput} className='w-100'/>
+                <MDBInput label='Your designation' name='designation' type='text' onChange={handleInput} className='w-100'/>
               </div>
               <div className="d-flex flex-row align-items-center mb-4 ">
                 <MDBIcon fas icon="city me-3" size='lg'/>

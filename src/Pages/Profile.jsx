@@ -98,16 +98,16 @@ const Profile = () => {
                                             </MDBCol>
                                         </MDBRow>
 
-                                        <MDBTypography tag="h6">Education</MDBTypography>
+                                        <MDBTypography tag="h6">Service</MDBTypography>
                                         <hr className="mt-0 mb-4" />
                                         <MDBRow className="pt-1">
                                             <MDBCol size="6" className="mb-3">
-                                                <MDBTypography tag="h6">College</MDBTypography>
-                                                <MDBCardText className="text-muted">{User.college}</MDBCardText>
+                                                <MDBTypography tag="h6">Company</MDBTypography>
+                                                <MDBCardText className="text-muted">{User.company}</MDBCardText>
                                             </MDBCol>
                                             <MDBCol size="6" className="mb-3">
-                                                <MDBTypography tag="h6">Course</MDBTypography>
-                                                <MDBCardText className="text-muted">{User.course}</MDBCardText>
+                                                <MDBTypography tag="h6">Designation</MDBTypography>
+                                                <MDBCardText className="text-muted">{User.designation}</MDBCardText>
                                             </MDBCol>
                                         </MDBRow>
 
