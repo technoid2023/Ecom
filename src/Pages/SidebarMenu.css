@@ -5,13 +5,14 @@
 }
 
 .sidebar {
-    background-color: rgb(86, 180, 62);
+    background-color: rgb(18, 0, 51);
     /* background-color: darkseagreen; */
     font-weight: bolder;
     overflow-y: auto;
     position: relative;
     min-height: 45rem;
-    max-height: calc(80vh - 62px);
+    max-height: calc(80vh - 62px)
+    
   
 }
 

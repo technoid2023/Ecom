@@ -10,9 +10,11 @@ import Sidebarmenu from '../Pages/Menubar';
 
 
 import Reset from '../Pages/ResetPassword';
-import Profile from '../Pages/Profile';
+
 import Register from '../Pages/Registration';
 import Update from '../Pages/UserUpdate';
+import Captcha from '../Pages/Captcha';
+import Profile from '../Module/Profile/Profile';
 
 
 
@@ -24,6 +26,7 @@ function MyRoute() {
             <Route path="/" element={<Home />} />
             <Route path="/signup" element={<Register />} />
             <Route path="/login" element={<UserLogin />} />
+            <Route path="/captcha" element={<Captcha />} />
             <Route path='/reset'  element={<Reset/>}/>
             <Route path="/dashboard" element={<Sidebarmenu />}>
                 <Route path='profile'  element={<Profile/>}/>

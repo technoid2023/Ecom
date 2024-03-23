@@ -38,27 +38,27 @@ const handleLogout = () => {
 
 const menuItems = [
     { name: 'Profile', icon: faUserTie, link: 'profile' },
-    { name: 'Categories', icon: faPeopleGroup, link: '/human-resource' },
-    { name: 'Cart', icon: faLandmark, link: '/finance' },
-    { name: 'Orders', icon: faStore, link: '/marketing' },
-    { name: 'Help Desk', icon: faCubesStacked, link: '/material-management' },
+    { name: 'Billing', icon: faLandmark, link: '/human-resource' },
+    { name: 'Inventory', icon: faStore, link: '/finance' },
+    { name: 'Stocks', icon: faStore, link: '/marketing' },
+    { name: 'Sales', icon: faCubesStacked, link: '/material-management' },
     { name: 'Notifiation', icon: faIndustry, link: '/production-development' },
 ];
 
     
         return (
             <Layout>
-                <div className="sidebar-menu-container">
+                <div className="sidebar-menu-container" >
                   
                     <div className={`sidebar-container ${sidebarCollapsed ? 'collapsed' : ''}`}>
                         <Sidebar className="sidebar" collapsed={sidebarCollapsed}>
                         <Menu>
                         {menuItems.map((item, index) => (
-                            <MenuItem key={index} icon={<FontAwesomeIcon icon={item.icon} size='1x' style={{ color: 'saddlebrown', marginRight: '10px' }} />}>
+                            <Link to={item.link}><MenuItem key={index} icon={<FontAwesomeIcon icon={item.icon} size='1x' style={{ color: 'saddlebrown', marginRight: '10px' }} />}>
                                 <Link to={item.link} >
                                     {item.name}
                                 </Link>
-                            </MenuItem>
+                            </MenuItem></Link>
                         ))}
                     </Menu>
 
